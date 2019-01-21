@@ -1,4 +1,5 @@
 # Vue Svg icon Component
+  Vue icon component using svg. Based on https://vuejs.org/v2/cookbook/editable-svg-icons.html
 
 ## Project setup
 ```
