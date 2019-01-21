@@ -1,4 +1,4 @@
-# svg-icons
+# Vue Svg icon Component
 
 ## Project setup
 ```
@@ -23,4 +23,8 @@ npm run test
 ### Lints and fixes files
 ```
 npm run lint
+```
+### For icon Animation Install gsap
+```
+npm install --save gsap
 ```
