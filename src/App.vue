@@ -24,7 +24,9 @@
       <XIcon size="24"  icon="keyboard-return" color="darkorchid"></XIcon>
       <XIcon size="24"  icon="content-save" color="darkorchid"></XIcon>
       <XIcon size="16"  icon="new-releases" color="deeppink"></XIcon>
-      <XIcon size="50"  icon="truck-delivery" color="darkorchid"></XIcon>
+      <button @click="hdlclick" style="background-color: grey;">Switch icon</button>
+      <XIcon v-if="toggle" size="50"  icon="truck-delivery" color="darkorchid"></XIcon>
+      <XIcon v-else size="50"  icon="add-shopping-cart" color="darkorchid"></XIcon>
       <!-- <icon-heart-face /> -->
   </div>
 </template>
@@ -41,7 +43,12 @@ export default {
   },
   data() {
     return {
-    
+     toggle: true
+    }
+  },
+  methods: {
+    hdlclick() {
+       this.toggle = !this.toggle
     }
   }
 }
