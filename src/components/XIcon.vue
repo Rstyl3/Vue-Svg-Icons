@@ -31,6 +31,43 @@ import KeyboardReturn from "./icons/KeyboardReturn.vue";
 import ContentSave from "./icons/ContentSave.vue";
 import NewReleases from "./icons/NewReleases.vue";
 import TruckDelivery from "./icons/TruckDelivery.vue";
+import ArrowDown from "./icons/ArrowDown.vue";
+import ArrowUp from "./icons/ArrowUp.vue";
+import PaperClip from "./icons/PaperClip.vue";
+import MessageReplyText from "./icons/MessageReplyText.vue";
+import ArrowLeft from "./icons/ArrowLeft.vue";
+import ArrowRight from "./icons/ArrowRight.vue";
+import Launch from "./icons/Launch.vue";
+import ChevronLeft from "./icons/ChevronLeft.vue";
+import ChevronRight from "./icons/ChevronRight.vue";
+import Plus from "./icons/Plus.vue";
+import FilterVariant from "./icons/FilterVariant.vue";
+import Send from "./icons/Send.vue";
+import Close from "./icons/Close.vue";
+import Forward from "./icons/Forward.vue";
+import Pause from "./icons/Pause.vue";
+import Undo from "./icons/Undo.vue";
+import ClipboardAlert from "./icons/ClipboardAlert.vue";
+import Exclamation from "./icons/Exclamation.vue";
+import AccountMultiple from "./icons/AccountMultiple.vue";
+import History from "./icons/History.vue";
+import Magnify from "./icons/Magnify.vue";
+import Calendar from "./icons/Calendar.vue";
+import Inbox from "./icons/Inbox.vue";
+import Account from "./icons/Account.vue";
+import FileDocumentBoxMultiple from "./icons/FileDocumentBoxMultiple.vue";
+import BellOutline from "./icons/BellOutline.vue";
+import CommentOutline from "./icons/CommentOutline.vue";
+import Domain from "./icons/Domain.vue";
+import SortVariant from "./icons/SortVariant.vue";
+import ViewHeadline from "./icons/ViewHeadline.vue";
+import ViewColumn from "./icons/ViewColumn.vue";
+import Refresh from "./icons/Refresh.vue";
+import SubdirectoryArrowLeft from "./icons/SubdirectoryArrowLeft.vue";
+import RadioboxBlank from "./icons/RadioboxBlank.vue";
+import RadioboxMarked from "./icons/RadioboxMarked.vue";
+import SettingsBox from "./icons/SettingsBox.vue";
+import ViewList from "./icons/ViewList.vue";
 
 export default {
   components: {
@@ -55,7 +92,44 @@ export default {
     KeyboardReturn,
     ContentSave,
     NewReleases,
-    TruckDelivery
+    TruckDelivery,
+    ArrowDown,
+    ArrowUp,
+    PaperClip,
+    MessageReplyText,
+    ArrowLeft,
+    ArrowRight,
+    Launch,
+    ChevronLeft,
+    ChevronRight,
+    Plus,
+    FilterVariant,
+    Send,
+    Close,
+    Forward,
+    Pause,
+    Undo,
+    ClipboardAlert,
+    Exclamation,
+    AccountMultiple,
+    History,
+    Magnify,
+    Calendar,
+    Inbox,
+    Account,
+    FileDocumentBoxMultiple,
+    BellOutline,
+    CommentOutline,
+    Domain,
+    SortVariant,
+    ViewHeadline,
+    ViewColumn,
+    Refresh,
+    SubdirectoryArrowLeft,
+    RadioboxBlank,
+    RadioboxMarked,
+    SettingsBox,
+    ViewList
   },
   props: ["icon", "size", "color", "spin"],
   data() {
